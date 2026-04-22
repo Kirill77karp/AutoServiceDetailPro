@@ -1,0 +1,106 @@
+body{
+    background-color: #F5F5F7;
+    border: 0;
+    margin: 0;
+    padding: 0;
+    background-image: url();
+}
+
+
+/* ==================== MENU =================== */
+
+
+.menu{
+    width: 100%;
+    height: 60px;
+    background-color: white;
+    box-shadow: black 50px 0px 0px;
+}
+
+.logo_menu{
+    width: 50px;
+    height: auto;
+    position: relative;
+    left: 16%;
+    top: 12px;
+}
+
+.logo_menu:hover{
+    opacity: 70%;
+}
+
+.li_menu{
+    margin-top: -22px;
+    margin-left: 70%;
+    font-family: "Inter", sans-serif;
+    font-weight: 500;
+    display: flex;
+    list-style: none;
+    gap: 47px;
+    font-size: 14px;
+    color: #000000a6;
+}
+
+.li_menu_batton{
+    margin-top: -26px;
+    margin-left: -23.5px;
+    border-radius: 10px;
+    width: 93px;
+    height: 37px;
+    background-color: #F5F5F7;
+}
+
+
+
+
+/* ================== Log in ================= */
+.close_form{
+    position: relative;
+    top: 210px;
+    left: 260px;
+    background-color: white;
+    width: 40px;
+    height: 40px;
+    border-radius: 999px;
+}
+
+.card_log_in{
+    border-radius: 25px;
+    margin-top:100px;
+    width: 500px;
+    height: 400px;
+    background-color: white;
+}
+
+.input_email,
+.input_password {
+    box-sizing: border-box;  
+    padding-left: 15px;
+}
+
+.input_email{
+    margin-top: 45px;
+    height: 50px;
+    width: 395px;
+    border-radius: 15px;
+    border: 1px solid rgba(0, 0, 0, 0.235);
+    font-size: 16px;
+}
+
+.input_password{
+    margin-top: 15px;
+    height: 50px;
+    width: 395px;
+    border-radius: 15px;
+    border: 1px solid rgba(0, 0, 0, 0.235);
+    font-size: 16px;
+}
+
+.btn{
+    margin-top: 60px;
+    height: 60px;
+    width: 395px;
+    border-radius: 15px;
+    border: 2px solid rgb(0, 0, 0);
+    background-color: black;
+}
